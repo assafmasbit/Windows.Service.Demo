@@ -1,0 +1,14 @@
+c:\users\assaf\documents\visual studio 2013\Projects\WindowsService.Demo\Logging\bin\Debug\Logging.dll
+c:\users\assaf\documents\visual studio 2013\Projects\WindowsService.Demo\Logging\bin\Debug\Logging.pdb
+c:\users\assaf\documents\visual studio 2013\Projects\WindowsService.Demo\Logging\bin\Debug\log4net.dll
+c:\users\assaf\documents\visual studio 2013\Projects\WindowsService.Demo\Logging\bin\Debug\log4net.xml
+c:\users\assaf\documents\visual studio 2013\Projects\WindowsService.Demo\Logging\obj\Debug\Logging.dll
+c:\users\assaf\documents\visual studio 2013\Projects\WindowsService.Demo\Logging\obj\Debug\Logging.pdb
+c:\users\assaf\documents\visual studio 2013\Projects\WindowsService.Demo\Logging\obj\Debug\Logging.csprojResolveAssemblyReference.cache
+C:\Users\Assaf\Documents\Visual Studio 2013\Projects\WindowsService.Demo\Windows.Service.Demo\Logging\bin\Debug\Logging.dll
+C:\Users\Assaf\Documents\Visual Studio 2013\Projects\WindowsService.Demo\Windows.Service.Demo\Logging\bin\Debug\Logging.pdb
+C:\Users\Assaf\Documents\Visual Studio 2013\Projects\WindowsService.Demo\Windows.Service.Demo\Logging\bin\Debug\log4net.dll
+C:\Users\Assaf\Documents\Visual Studio 2013\Projects\WindowsService.Demo\Windows.Service.Demo\Logging\bin\Debug\log4net.xml
+C:\Users\Assaf\Documents\Visual Studio 2013\Projects\WindowsService.Demo\Windows.Service.Demo\Logging\obj\Debug\Logging.csprojResolveAssemblyReference.cache
+C:\Users\Assaf\Documents\Visual Studio 2013\Projects\WindowsService.Demo\Windows.Service.Demo\Logging\obj\Debug\Logging.dll
+C:\Users\Assaf\Documents\Visual Studio 2013\Projects\WindowsService.Demo\Windows.Service.Demo\Logging\obj\Debug\Logging.pdb

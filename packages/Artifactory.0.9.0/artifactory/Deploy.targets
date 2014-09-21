@@ -1,0 +1,30 @@
+<Project ToolsVersion="4.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <PropertyGroup>
+    <pluginVersion>0.9.0</pluginVersion>
+  </PropertyGroup>
+ 
+  <Import Project="$(solutionDir)\.artifactory\artifactory.build" Condition="'$(NuGetToolsPath)' == '' And Exists('$(solutionDir)\.artifactory\artifactory.build')" />
+
+  <PropertyGroup>
+    <startTime>$([System.DateTime]::Now.ToString(yyyy-MM-ddTHH:mm:ss))</startTime>
+
+    <buildNumber Condition="'$(TF_BUILD)' == 'True'">$(TF_BUILD_BUILDNUMBER)</buildNumber>
+    <buildName Condition="'$(TF_BUILD)' == 'True'">$(TF_BUILD_BUILDDEFINITIONNAME)</buildName>
+    <buildUNCPath Condition="'$(TF_BUILD)' == 'True'">$(TF_BUILD_DROPLOCATION)</buildUNCPath>
+    <buildURI Condition="'$(TF_BUILD)' == 'True'">$(TF_BUILD_BUILDURI)</buildURI>
+    <buildReason Condition="'$(TF_BUILD)' == 'True'">$(TF_BUILD_BUILDREASON)</buildReason>
+    <buildRevision Condition="'$(TF_BUILD)' == 'True'">$(TF_BUILD_SOURCEGETVERSION)</buildRevision>
+  </PropertyGroup>
+
+  <UsingTask TaskName="JFrog.Artifactory.ArtifactoryBuild" AssemblyFile="$(solutionDir)\packages\Artifactory.$(pluginVersion)\lib\net45\JFrog.Artifactory.dll" />
+  <Target Name="[Artifactory]" AfterTargets="Build">
+    <ArtifactoryBuild   projRefList="@(ProjectReference)" ProjectName="$(MSBuildProjectName)" SolutionRoot="$(solutionDir)"
+                        ProjectPath="$(MSBuildProjectDirectory)" Configuration="$(Configuration)" StartTime="$(startTime)"
+                        TfsActive="$(TF_BUILD)" BuildUNCPath="$(buildUNCPath)"   BuildURI="$(buildURI)" BuildReason="$(buildReason)" BuildNumber="$(buildNumber)"
+                        VcsRevision="$(buildRevision)" User="$(ArtifactoryUserName)" Password="$(ArtifactoryPassword)" Url="$(DeployArtifactoryUrl)"
+                        BuildName="$(buildName)" DeploymentRepository="$(DeployRepository)" DeployEnable="$(DeployEnable)"
+                        BuildInfoEnable="$(BuildInfoEnable)" ToolVersion="$(MSBuildToolsVersion)"/>
+  </Target> 
+  
+</Project>

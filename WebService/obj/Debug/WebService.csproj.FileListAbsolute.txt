@@ -1,0 +1,12 @@
+c:\users\assaf\documents\visual studio 2013\Projects\WindowsService.Demo\WebService\bin\WebService.dll.config
+c:\users\assaf\documents\visual studio 2013\Projects\WindowsService.Demo\WebService\bin\WebService.dll
+c:\users\assaf\documents\visual studio 2013\Projects\WindowsService.Demo\WebService\bin\WebService.pdb
+c:\users\assaf\documents\visual studio 2013\Projects\WindowsService.Demo\WebService\obj\Debug\WebService.csprojResolveAssemblyReference.cache
+c:\users\assaf\documents\visual studio 2013\Projects\WindowsService.Demo\WebService\obj\Debug\WebService.dll
+c:\users\assaf\documents\visual studio 2013\Projects\WindowsService.Demo\WebService\obj\Debug\WebService.pdb
+C:\Users\Assaf\Documents\Visual Studio 2013\Projects\WindowsService.Demo\Windows.Service.Demo\WebService\bin\WebService.dll.config
+C:\Users\Assaf\Documents\Visual Studio 2013\Projects\WindowsService.Demo\Windows.Service.Demo\WebService\bin\WebService.dll
+C:\Users\Assaf\Documents\Visual Studio 2013\Projects\WindowsService.Demo\Windows.Service.Demo\WebService\bin\WebService.pdb
+C:\Users\Assaf\Documents\Visual Studio 2013\Projects\WindowsService.Demo\Windows.Service.Demo\WebService\obj\Debug\WebService.csprojResolveAssemblyReference.cache
+C:\Users\Assaf\Documents\Visual Studio 2013\Projects\WindowsService.Demo\Windows.Service.Demo\WebService\obj\Debug\WebService.dll
+C:\Users\Assaf\Documents\Visual Studio 2013\Projects\WindowsService.Demo\Windows.Service.Demo\WebService\obj\Debug\WebService.pdb
